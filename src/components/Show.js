@@ -42,9 +42,9 @@ class Show extends Component {
               <dt>ISBN:</dt>
               <dd>{this.state.mentor.isbn}</dd>
               <dt>Author:</dt>
-              <dd>{this.state.mentor.author}</dd>
+              <dd>{this.state.mentor.company}</dd>
               <dt>Description:</dt>
-              <dd>{this.state.mentor.description}</dd>
+              <dd>{this.state.mentor.position}</dd>
               <dt>Publish Date:</dt>
             </dl>
             <Link to={`/edit/${this.state.mentor._id}`} class="btn btn-success">Edit</Link>&nbsp;
